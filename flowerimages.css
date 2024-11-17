@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*  bg-container  */
+
+.bg-container {
+    height: 100vh;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/643/326/459/flowers-spring-pink-tulips-wallpaper-thumb.jpg');
+    background-size: cover;
+}
+
+.text-left {
+    margin-left: 20px;
+    font-family: "Roboto";
+}
+
+.bg-heading {
+    font-size: 45px;
+    color: black;
+    text-shadow: 1px 1px  black;
+    font-weight: bold;
+}
+
+.bg-heading-2 {
+    font-size: 30px;
+    color: mediumblue;
+    text-shadow: 1px 1px  black;
+    font-weight: 700;
+}
+
+.bg-para {
+    font-size: 25px;
+    color:aliceblue;
+    text-shadow: 1px 1px  black;
+    font-weight: 300;
+}
+
+.custom-button {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: crimson;
+}
+
+.nav-link {
+    align-items: center;
+}
+
+.text-center {
+    width: 100%;
+    height: 100%;
+    background-color: palevioletred;
+}
+
+/*  About us section   */
+/* General Section Styling */
+/* General Section Styling */
+.About-Us-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    
+}
+
+.about-us {
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Video Container Styling */
+.video-container {
+    width: 100%;
+    max-width: 900px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+}
+
+/* Text Section Styling */
+.text-sec {
+    text-align: center;
+    padding: 20px;
+}
+
+.text-heading {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.why-choose-us-para {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* why choose us section */
+.text-heading {
+    font-size: 160px;
+    background-color:palevioletred ;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .video-container {
+        width: 100%;
+    }
+    .text-heading {
+        font-size: 24px;
+    }
+    .why-choose-us-para {
+        font-size: 14px;
+    }
+}
+
+/* Text Section Styling */
+.text-sec {
+    text-align: center;
+    padding: 20px;
+}
+
+.text-heading {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.why-choose-us-para {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .video-container {
+        width: 100%;
+    }
+    .text-heading {
+        font-size: 24px;
+    }
+    .why-choose-us-para {
+        font-size: 14px;
+    }
+}
+
+/*  service-section  */
+/*  Free-Shipping*/
+/* General styling for service items */
+.service-item {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .service-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .service-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .service-text {
+    flex-grow: 1;
+  }
+  
+  .service-heading {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .service-para {
+    margin: 0;
+    color: gray;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 767px) {
+    .service-item {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .service-image {
+      margin-bottom: 10px;
+    }
+  }
+  
+/* secure-payment*/
+.secure-payment {
+    width: 300px;
+    height: 120px;
+    border: 2px solid black;
+    margin-left: 30px;
+    margin-block-start: 20px;
+}
+.secure-payment:hover{
+    width:340px;
+    height:130px;
+}
+
+/* Letest Product */
+.latest-product {
+    width: 100%;
+    background-color: palevioletred;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+}
+
+.card-1 {
+    width: 100%;
+    max-width: 20rem;
+    height: 100%;
+    max-height: 25rem;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin: auto; /* Center the card horizontally */
+}
+
+.card-1-heading {
+    border: 1px solid pink;
+    border-radius: 10px;
+    background-color: rgb(236, 201, 207);
+    text-align: center;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.card-1-image {
+    width: 15rem;
+    height: 13rem;
+    margin: 10px 0;
+    object-fit: cover;
+}
+
+.card-1-image:hover {
+    transform: scale(1.1);
+}
+
+.card-1-icons {
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+}
+
+.card-1-icons:hover {
+    transform: scale(1.1);
+    color: red;
+}
+
+.card-1-bottom-heading {
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.card-1-bottom-heading-2 {
+    text-align: center;
+    color: rgb(238, 131, 148);
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+
+/* customer review */
+
+.customer-review {
+    width: 103%;
+    height: 100%;
+    background-color: palevioletred;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+}
+
+.customer-review-card-1-profile-img {
+    width: 45px;
+    height: 40px;
+
+}
+
+.bi {
+    color: rgb(241, 8, 47);
+}
+
+
+/* contact-us-section */
+
+.contact-us-p {
+    width: 103%;
+    height: 100%;
+    background-color: palevioletred;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.contact-us-input-section input {
+    margin-bottom: 25px;
+    /* Space between input boxes */
+}
+
+.input-section-name {
+    height: 50px;
+    /*  input-box-height  */
+}
+
+.input-section-msg {
+    height: 130px;
+    /*   msg-box-height  */
+}
+
+.contact-us-image {
+    width: 40rem;
+    height: 28rem;
+}
+
+/*   Links  */
+
+.links-section .quick-links a {
+    margin-bottom: 10px;
+    /* Space between links */
+}
+
+.links-section .extra-links a {
+    margin-bottom: 10px;
+    /* Space between links */
+}
+
+.links-section .locations a {
+    margin-bottom: 10px;
+    /* Space between links */
+}
+
+.links-section .contact-info a {
+    margin-bottom: 10px;
+    /* Space between links */
+}
+
+.contact-info-image {
+    width: 70px;
+    height: 70px;
+}
+
+.extra-links a {
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.quick-links a {
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.locations a {
+    text-decoration: none;
+    /* Remove underline */
+}
+
+.contect-info a {
+    text-decoration: none;
+    /* Remove underline */
+}
+.contact-info {
+    text-decoration: none;
+}
